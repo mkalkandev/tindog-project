@@ -1,0 +1,54 @@
+.gradient-background {
+  background: linear-gradient(300deg, #30CBBF, #F7CE68, #D60C0C); 
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.purple{
+  color: #f7f4fa;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;}
+
+.profile-image{
+   border-radius: 50%;
+   height: 150px;
+  }
+  .nav-link{
+    color: #fdfdfd;
+  }
+  .nav-link:hover{
+    color: rgb(197, 184, 184);
+  }
+  .padding{
+    padding: 2px 0px;
+  }
+  .purple{
+    color:#4158D0 ;
+    font-weight: bold;
+  }
+  .button-color{
+    background-color: #8b1313f3;
+    color: #fff;
+  }
+  .border{
+    border: 5px solid #8b1313f3;
+  }
+  .white{
+    color: #fff;
+  }
